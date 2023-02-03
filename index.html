@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BoltEvents</title>
+
+  <!-- Favicon -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/bolt.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/bolt.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/bolt.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="images/favicon/bolt.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- End: Favicon -->
+
+  <!-- Required Social Preview MetaTags -->
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="BoltEvents" />
+  <meta name="description" content="BoltEvents app" />
+
+  <!-- End of Required Social Preview MetaTags -->
+
+  <!-- LATO — Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+    rel="stylesheet" />
+  <!-- End: LATO — Google Font -->
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <!-- End: Main CSS File -->
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <!-- Preloader End -->
+  <!-- Header Section -->
+  <header id="home">
+    <nav>
+      <div class="navbar-logo">
+        <a href="#" class="logo">BoltEvents</a>
+      </div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#home">INÍCIO</a></li>
+          <li><a href="#features">RECURSOS</a></li>
+          <li><a href="#testimonial">FEEDBACKS</a></li>
+          <li><a href="#howto">DESCRIÇÃO</a></li>
+          <li><a href="#download">DOWNLOAD</a></li>
+        </ul>
+      </div>
+      <div id="mobileNav">
+        <span onclick="openNav()">&#9776;</span>
+      </div>
+      <div id="myNav" class="mobileNavOverlay">
+        <div class="overlay-content">
+          <a href="javascript:void()" class="close-btn" onclick="closeNav()">&times;</a>
+          <a href="#home" onclick="closeNav()">HOME</a>
+          <a href="#features" onclick="closeNav()">RECURSOS</a>
+          <a href="#testimonial" onclick="closeNav()">FEEDBACKS</a>
+          <a href="#howto" onclick="closeNav()">DESCRIÇÃO</a>
+          <a href="#download" onclick="closeNav()">DOWNLOAD</a>
+        </div>
+      </div>
+    </nav>
+    <div id="hero">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="hero-description">
+            <h1>
+              Simples, seguro <br />
+              e rápido.
+            </h1>
+            <p>
+              Com <span class="bold-text">BoltEvents</span>, Você encontra
+              os Melhores eventos!
+            </p>
+
+            <a href="#download" class="btn"><span class="download-btn"> Baixar agora</span></a>
+
+
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <img class="hero-img" src="images/first.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="shape-divider">
+      <div class="custom-shape-divider-bottom-1603385849">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="scrollUp" title="Go to top">
+      <svg width="1.5rem" height="1.5rem" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+      </svg>
+    </button>
+  </header>
+  <!-- End: Header Section -->
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="row">
+      <div class="col span_1_of_2">
+        <div class="features-images">
+          <img class="features_1" src="images/features1.png" alt="" />
+        </div>
+      </div>
+      <div class="col span_1_of_2">
+        <div class="section-description features-description col1">
+          <h2 class="stylish_heading">
+            Todos os eventos em um só lugar <span class="red_dot">.</span>
+          </h2>
+          <p class="little-description">
+            No nosso aplicativo, você terá acesso aos melhores eventos e aos eventos mais próximos de você. Com nosso
+            sistema de busca eficiente e atualizações constantes, você nunca mais vai perder a oportunidade de
+            participar de eventos incríveis. Não importa o que você goste ou onde você esteja, nós temos a certeza de
+            que vai encontrar algo que lhe interesse. Baixe agora e comece a descobrir os melhores eventos perto de
+            você!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row second-features-row">
+      <div class="col span_1_of_2">
+        <div class="section-description features-description">
+          <h2 class="stylish_heading">
+            Eventos por proximidade e gênero musical <span class="red_dot">.</span>
+          </h2>
+          <p class="little-description">
+            Com nosso aplicativo, você pode facilmente encontrar eventos que combinam com seus gostos musicais e
+            localização. Basta usar a nossa funcionalidade de busca avançada, que permite pesquisar eventos por
+            proximidade e gênero musical. Assim, você pode selecionar eventos de sua preferência e localização, e ter a
+            certeza de que vai encontrar a experiência perfeita. Além disso, o aplicativo oferece informações detalhadas
+            sobre cada evento, incluindo data, hora, localização e até mesmo uma prévia da programação. Baixe agora e
+            descubra as melhores opções de eventos musicais na sua área!
+          </p>
+        </div>
+      </div>
+      <div class="col span_1_of_2">
+        <div class="features-images">
+          <img class="features_3" src="images/features2.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End: Features Section -->
+
+  <!-- Testimonial Section -->
+  <section id="testimonial">
+    <h2 class="stylish_heading">
+      Nossos feedbacks <span class="red_dot">.</span>
+    </h2>
+    <div class="row">
+      <div class="col span_1_of_3">
+        <div class="bubble">
+          <p class="message">
+            "Eu amei o aplicativo de eventos! É incrível poder pesquisar eventos por proximidade e gênero musical.
+            Finalmente, encontrei um app que me ajuda a descobrir novos eventos e acompanhar os meus artistas favoritos.
+            Muito obrigado!"
+          </p>
+          <span class="company-name">Marcos André</span>
+        </div>
+        <div class="client-info">
+          <img class="avatar" src="images/avatar1.jpg" alt="" />
+
+        </div>
+      </div>
+      <div class="col span_1_of_3">
+        <div class="bubble">
+          <p class="message">
+            "Desde que descobri esse aplicativo, minha vida social mudou completamente. Sempre encontro eventos
+            incríveis perto de mim e posso personalizar as minhas buscas com base em meus gostos musicais. Muito útil e
+            fácil de usar!"
+          </p>
+          <span class="company-name">João</span>
+        </div>
+        <div class="client-info">
+          <img class="avatar" src="images/avatar2.jpg" alt="" />
+
+        </div>
+      </div>
+      <div class="col span_1_of_3">
+        <div class="bubble">
+          <p class="message">
+            "O aplicativo de eventos é perfeito para quem ama música e eventos. Além de ser muito fácil de usar, a busca
+            por proximidade e gênero musical é muito eficiente. Recomendo muito para quem quer descobrir novos eventos e
+            artistas!"
+          </p>
+          <span class="company-name">Guilherme augusto</span>
+        </div>
+        <div class="client-info">
+          <img class="avatar" src="images/avatar3.jpg" alt="" />
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End: Testimonial Section -->
+
+  <!-- How To Section -->
+  <section id="howto">
+    <div class="row">
+      <div class="col span_1_of_3 first-col">
+        <div class="first-item">
+          <div class="item-description">
+            <h4>Fácil acesso</h4>
+            <p>
+              Acesse sua conta com facilidade e comece a descobrir os melhores eventos perto de você!
+            </p>
+          </div>
+          <div class="item-icon1">
+
+          </div>
+        </div>
+        <div class="first-item">
+          <div class="item-description">
+            <h4>Totalmente gratuito</h4>
+            <p>
+              Experimente o melhor aplicativo de eventos agora mesmo, totalmente grátis!
+            </p>
+          </div>
+          <div class="item-icon1">
+
+          </div>
+        </div>
+      </div>
+      <div class="col span_1_of_3 second-col">
+        <img class="big_image" src="images/2.png" alt="" />
+      </div>
+      <div class="col span_1_of_3 third-col">
+        <div class="last-item">
+          <div class="item-icon2">
+
+          </div>
+          <div class="item-description">
+            <h4>Melhores filtros de pesquisa</h4>
+            <p>
+              Descubra os melhores eventos com nossos poderosos filtros de pesquisa, sempre de acordo com suas
+              preferências
+            </p>
+          </div>
+        </div>
+        <div class="last-item">
+          <div class="item-icon2">
+
+          </div>
+          <div class="item-description">
+            <h4>Disponível para Android e Ios</h4>
+            <p>
+              Baixe agora o nosso aplicativo de eventos, disponível para Android e iOS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End: How To Section -->
+
+  <!-- Subscribe Section -->
+  <section id="subscribe">
+    <div class="row">
+      <h2 class="stylish_heading">
+        Deseja ser criador de ventos? <span class="red_dot">.</span>
+      </h2>
+      <p class="">
+        Quer transformar seu perfil em um criador de eventos? Envie-nos uma mensagem e nossa equipe de suporte entrará
+        em contato para habilitar sua conta.
+      </p>
+    </div>
+    <div class="subscribe-form">
+      <input class="form-input" type="email" placeholder="Seu endereço de email" required />
+      <a href="mailto:alexbraul.ar@gmail.com">
+        <input type="submit" class="btn subscribe-btn" value="Enviar email" />
+      </a>
+    </div>
+  </section>
+  <!-- End: Subscribe Section -->
+
+  <!-- Download The App Section -->
+  <section id="download">
+    <div class="row">
+      <img class="app-logo" src="images/app_logo.png" alt="" />
+      <h2 class="stylish_heading">
+        Baixe o aplicativo <span class="red_dot">.</span>
+      </h2>
+      <p class="">
+        Baixe agora o nosso aplicativo e descubra os melhores eventos perto de você!
+      </p>
+      <a href="https://www.google.com.br">
+        <!-- <img src="images/apple.png" alt="" /> -->
+        <svg viewBox="0 0 176 48" xmlns="http://www.w3.org/2000/svg" class="css-1csxzh1" style="width: 150px;">
+          <rect width="176" height="48" rx="24" fill="#1D1D1D"></rect>
+          <path
+            d="M60.4939 16.9794V10.7572H62.3894C63.3424 10.7572 64.1089 11.0476 64.6786 11.618C65.2483 12.1987 65.5383 12.9453 65.5383 13.8683C65.5383 14.7912 65.2483 15.5379 64.6786 16.1186C64.1089 16.689 63.3424 16.9794 62.3894 16.9794H60.4939ZM61.2915 16.212H62.3894C63.1042 16.212 63.6739 16.0046 64.0986 15.5897C64.5232 15.1749 64.7304 14.6046 64.7304 13.8579C64.7304 13.1216 64.5232 12.5513 64.0986 12.1365C63.6739 11.7217 63.1145 11.5143 62.3894 11.5143H61.2915V16.212Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path d="M66.6672 16.9794V10.7572H67.4648V16.9794H66.6672Z" fill="white" stroke="white" stroke-width="0.2"
+            stroke-miterlimit="10"></path>
+          <path
+            d="M70.6349 17.1141C70.1792 17.1141 69.7441 16.969 69.3091 16.6682C68.874 16.3675 68.5944 15.9631 68.4597 15.4238L69.1848 15.1334C69.2677 15.4757 69.4437 15.766 69.7131 15.9942C69.9824 16.2327 70.2828 16.3468 70.6246 16.3468C70.9664 16.3468 71.2668 16.2534 71.5154 16.0771C71.764 15.8905 71.8883 15.6519 71.8883 15.3305C71.8883 14.9883 71.764 14.7186 71.5154 14.532C71.2668 14.3453 70.8835 14.169 70.3449 14.0031C69.7959 13.8268 69.3816 13.609 69.0916 13.329C68.8119 13.049 68.6669 12.7068 68.6669 12.2713C68.6669 11.8253 68.843 11.4416 69.1952 11.1098C69.5473 10.778 70.0134 10.612 70.5728 10.612C71.1011 10.612 71.5257 10.7468 71.8572 11.0061C72.1887 11.2654 72.4062 11.5557 72.4994 11.8668L71.7743 12.1676C71.7225 11.9705 71.5983 11.7839 71.3911 11.6179C71.1839 11.452 70.925 11.3691 70.5935 11.3691C70.2828 11.3691 70.0238 11.452 69.8063 11.6283C69.5888 11.8046 69.4852 12.012 69.4852 12.2713C69.4852 12.4994 69.5888 12.6964 69.7856 12.8624C69.9824 13.0179 70.2828 13.1631 70.666 13.2875C70.9768 13.3912 71.2254 13.4846 71.4325 13.5779C71.6397 13.6712 71.8468 13.7957 72.054 13.9512C72.2612 14.1068 72.4269 14.2935 72.5305 14.5216C72.6341 14.7497 72.6962 15.0194 72.6962 15.3201C72.6962 15.6208 72.6341 15.8905 72.5098 16.129C72.3855 16.3675 72.2197 16.5542 72.0126 16.689C71.8054 16.8238 71.5879 16.9379 71.3497 17.0104C71.1321 17.083 70.8835 17.1141 70.6349 17.1141Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M74.6538 16.9794H73.8562V10.7572H75.9693C76.4975 10.7572 76.9533 10.9335 77.3366 11.2861C77.7198 11.6387 77.9166 12.0742 77.9166 12.6135C77.9166 13.1424 77.7198 13.5883 77.3366 13.9409C76.9533 14.2935 76.4975 14.4698 75.9693 14.4698H74.6538V16.9794ZM74.6538 13.692H75.99C76.3215 13.692 76.5908 13.5779 76.7979 13.3498C77.0051 13.1216 77.0983 12.8728 77.0983 12.6031C77.0983 12.3335 76.9947 12.0846 76.7979 11.8565C76.5908 11.6283 76.3215 11.5143 75.99 11.5143H74.6538V13.692Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M84.0067 16.1702C83.3956 16.8028 82.6394 17.1139 81.7279 17.1139C80.8164 17.1139 80.0603 16.8028 79.4491 16.1702C78.838 15.5376 78.5376 14.7702 78.5376 13.868C78.5376 12.9658 78.838 12.188 79.4491 11.5658C80.0603 10.9332 80.8164 10.6221 81.7279 10.6221C82.6291 10.6221 83.3852 10.9332 84.0067 11.5658C84.6179 12.1984 84.9286 12.9658 84.9286 13.868C84.9286 14.7806 84.6179 15.548 84.0067 16.1702ZM80.0395 15.6517C80.4953 16.1183 81.065 16.3465 81.7279 16.3465C82.3908 16.3465 82.9605 16.1183 83.4163 15.6517C83.8721 15.185 84.1103 14.5939 84.1103 13.868C84.1103 13.1421 83.8824 12.551 83.4163 12.0843C82.9605 11.6177 82.3908 11.3895 81.7279 11.3895C81.065 11.3895 80.4953 11.6177 80.0395 12.0843C79.5838 12.551 79.3559 13.1421 79.3559 13.868C79.3559 14.5939 79.5838 15.185 80.0395 15.6517Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M86.0474 16.9794V10.7572H87.021L90.0456 15.6001H90.0767L90.0456 14.3972V10.7572H90.8432V16.9794H90.0145L86.8553 11.9083H86.8242L86.8553 13.1113V16.9794H86.0474Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M92.2625 16.9791V10.757H93.06V16.9791H92.2625ZM93.0082 10.2696H92.3142L92.77 9.16H93.6401L93.0082 10.2696Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M96.0227 16.9794L93.8372 10.7572H94.7176L96.4163 15.8075H96.4474L98.229 10.7572H99.1095L96.8514 16.9794H96.0227Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M103.646 11.5246H100.818V13.495H103.366V14.2416H100.818V16.212H103.646V16.9794H100.021V10.7572H103.646V11.5246Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path d="M104.889 16.9794V10.7572H105.687V16.212H108.38V16.9794H104.889Z" fill="white" stroke="white"
+            stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M111.467 16.9794V10.7572H112.44L115.465 15.6001H115.496L115.465 14.3972V10.7572H116.262V16.9794H115.434L112.274 11.9083H112.243L112.274 13.1113V16.9794H111.467Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M122.767 16.1702C122.156 16.8028 121.4 17.1139 120.488 17.1139C119.577 17.1139 118.821 16.8028 118.21 16.1702C117.598 15.5376 117.298 14.7702 117.298 13.868C117.298 12.9658 117.598 12.188 118.21 11.5658C118.821 10.9332 119.577 10.6221 120.488 10.6221C121.39 10.6221 122.146 10.9332 122.767 11.5658C123.378 12.1984 123.689 12.9658 123.689 13.868C123.679 14.7806 123.378 15.548 122.767 16.1702ZM118.8 15.6517C119.256 16.1183 119.826 16.3465 120.488 16.3465C121.151 16.3465 121.721 16.1183 122.177 15.6517C122.633 15.185 122.871 14.5939 122.871 13.868C122.871 13.1421 122.643 12.551 122.177 12.0843C121.721 11.6177 121.151 11.3895 120.488 11.3895C119.826 11.3895 119.256 11.6177 118.8 12.0843C118.344 12.551 118.106 13.1421 118.106 13.868C118.106 14.5939 118.344 15.185 118.8 15.6517Z"
+            fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+          <path
+            d="M88.2538 26.0536C85.8197 26.0536 83.8309 27.9098 83.8309 30.4609C83.8309 33.0016 85.8197 34.8682 88.2538 34.8682C90.688 34.8682 92.6768 33.0016 92.6768 30.4609C92.6768 27.9098 90.688 26.0536 88.2538 26.0536ZM88.2538 33.1364C86.9176 33.1364 85.7679 32.0372 85.7679 30.4609C85.7679 28.8743 86.9176 27.7854 88.2538 27.7854C89.59 27.7854 90.7398 28.8743 90.7398 30.4609C90.7398 32.0372 89.5797 33.1364 88.2538 33.1364ZM78.6 26.0536C76.1658 26.0536 74.177 27.9098 74.177 30.4609C74.177 33.0016 76.1658 34.8682 78.6 34.8682C81.0342 34.8682 83.0229 33.0016 83.0229 30.4609C83.0229 27.9098 81.0342 26.0536 78.6 26.0536ZM78.6 33.1364C77.2638 33.1364 76.114 32.0372 76.114 30.4609C76.114 28.8743 77.2638 27.7854 78.6 27.7854C79.9362 27.7854 81.086 28.8743 81.086 30.4609C81.086 32.0372 79.9362 33.1364 78.6 33.1364ZM67.1231 27.4121V29.2787H71.5978C71.4632 30.3261 71.111 31.1038 70.5827 31.6327C69.9302 32.2861 68.9151 33.0016 67.1335 33.0016C64.3782 33.0016 62.2237 30.7824 62.2237 28.0239C62.2237 25.2654 64.3782 23.0462 67.1335 23.0462C68.6147 23.0462 69.7023 23.6269 70.4999 24.384L71.8154 23.0669C70.6967 21.9988 69.2155 21.1796 67.1231 21.1796C63.3527 21.1796 60.1831 24.2491 60.1831 28.0343C60.1831 31.809 63.3527 34.889 67.1231 34.889C69.1637 34.889 70.6967 34.2253 71.8982 32.9705C73.1309 31.7364 73.5141 29.9942 73.5141 28.5943C73.5141 28.1587 73.483 27.7543 73.4105 27.4224H67.1231V27.4121ZM114.056 28.8639C113.694 27.8787 112.575 26.0536 110.286 26.0536C108.017 26.0536 106.132 27.8372 106.132 30.4609C106.132 32.929 107.997 34.8682 110.503 34.8682C112.523 34.8682 113.694 33.6342 114.17 32.9186L112.668 31.9127C112.171 32.649 111.487 33.1364 110.503 33.1364C109.519 33.1364 108.815 32.6801 108.369 31.7987L114.263 29.3617L114.056 28.8639ZM108.048 30.3365C107.997 28.6357 109.364 27.7646 110.348 27.7646C111.114 27.7646 111.767 28.1483 111.984 28.698L108.048 30.3365ZM103.263 34.609H105.2V21.6462H103.263V34.609ZM100.093 27.0387H100.021C99.5857 26.5202 98.757 26.0536 97.7005 26.0536C95.4942 26.0536 93.4744 27.9928 93.4744 30.4816C93.4744 32.9497 95.4942 34.8786 97.7005 34.8786C98.7467 34.8786 99.5857 34.4119 100.021 33.8727H100.083V34.5053C100.083 36.1956 99.1817 37.0978 97.7316 37.0978C96.5508 37.0978 95.8153 36.2475 95.5149 35.5319L93.8265 36.2371C94.3134 37.4089 95.5978 38.84 97.7316 38.84C100 38.84 101.916 37.5023 101.916 34.246V26.3232H100.083V27.0387H100.093ZM97.8662 33.1364C96.53 33.1364 95.4114 32.0164 95.4114 30.4816C95.4114 28.9261 96.53 27.7958 97.8662 27.7958C99.1817 27.7958 100.218 28.9365 100.218 30.4816C100.228 32.0164 99.1921 33.1364 97.8662 33.1364ZM123.13 21.6462H118.5V34.609H120.437V29.6935H123.14C125.284 29.6935 127.387 28.138 127.387 25.6699C127.387 23.2018 125.264 21.6462 123.13 21.6462ZM123.171 27.8891H120.426V23.4403H123.171C124.621 23.4403 125.44 24.6432 125.44 25.6595C125.44 26.6758 124.621 27.8891 123.171 27.8891ZM135.125 26.0328C133.726 26.0328 132.276 26.655 131.675 28.0135L133.395 28.7291C133.757 28.0135 134.441 27.775 135.156 27.775C136.161 27.775 137.176 28.3765 137.186 29.4446V29.5794C136.834 29.3824 136.088 29.0817 135.166 29.0817C133.312 29.0817 131.437 30.0979 131.437 31.9957C131.437 33.7275 132.949 34.8475 134.648 34.8475C135.943 34.8475 136.668 34.2668 137.113 33.5823H137.176V34.5882H139.04V29.6209C139.05 27.3187 137.331 26.0328 135.125 26.0328ZM134.886 33.1364C134.255 33.1364 133.374 32.8149 133.374 32.0372C133.374 31.0416 134.472 30.6579 135.425 30.6579C136.274 30.6579 136.678 30.8446 137.186 31.0935C137.041 32.2861 136.005 33.1364 134.886 33.1364ZM145.845 26.3128L143.629 31.9335H143.567L141.267 26.3128H139.185L142.634 34.1734L140.666 38.5393H142.686L148 26.3128H145.845ZM128.444 34.609H130.381V21.6462H128.444V34.609Z"
+            fill="white"></path>
+          <path
+            d="M28.4867 11.3176C28.1863 11.6391 28.0103 12.1368 28.0103 12.7694V35.7083C28.0103 36.3513 28.1863 36.849 28.4867 37.1601L28.5592 37.2327L41.393 24.3944V24.2389V24.0833L28.5592 11.245L28.4867 11.3176Z"
+            fill="url(#paint0_linear_play-store-icon-660270367)"></path>
+          <path
+            d="M45.6708 28.6773L41.3928 24.3944V24.2388V24.0833L45.6708 19.8004L45.764 19.8522L50.8291 22.7352C52.2793 23.5544 52.2793 24.9025 50.8291 25.7321L45.764 28.6151L45.6708 28.6773Z"
+            fill="url(#paint1_linear_play-store-icon-660270367)"></path>
+          <path
+            d="M45.764 28.6257L41.3929 24.2391L28.4866 37.1604C28.963 37.6685 29.7503 37.7308 30.6411 37.2226L45.764 28.6257Z"
+            fill="url(#paint2_linear_play-store-icon-660270367)"></path>
+          <path
+            d="M45.7644 19.8628L30.6311 11.2555C29.7403 10.7474 28.953 10.8096 28.4766 11.3178L41.3932 24.239L45.7644 19.8628Z"
+            fill="url(#paint3_linear_play-store-icon-660270367)"></path>
+          <path opacity="0.2"
+            d="M45.6711 28.5213L30.631 37.0767C29.792 37.5537 29.0358 37.5226 28.5593 37.0871L28.4868 37.1597L28.5593 37.2323C29.0462 37.6678 29.792 37.6989 30.631 37.2219L45.7643 28.6146L45.6711 28.5213Z"
+            fill="black"></path>
+          <path opacity="0.12"
+            d="M28.4867 37.0145C28.1863 36.693 28.0103 36.1952 28.0103 35.5627V35.7182C28.0103 36.3612 28.1863 36.8589 28.4867 37.17L28.5592 37.0974L28.4867 37.0145Z"
+            fill="black"></path>
+          <path opacity="0.12"
+            d="M50.8294 25.5873L45.6606 28.522L45.7539 28.6154L50.819 25.7324C51.5441 25.3176 51.9066 24.7784 51.9066 24.2391C51.8548 24.7265 51.4923 25.2139 50.8294 25.5873Z"
+            fill="black"></path>
+          <path opacity="0.25"
+            d="M30.631 11.4012L50.8295 22.8914C51.482 23.2647 51.8549 23.7417 51.9171 24.2395C51.9171 23.7002 51.5545 23.1506 50.8295 22.7462L30.631 11.256C29.1808 10.4368 28 11.1212 28 12.7804V12.936C28 11.2664 29.1912 10.5819 30.631 11.4012Z"
+            fill="white"></path>
+          <defs>
+            <linearGradient id="paint0_linear_play-store-icon-660270367" x1="40.2532" y1="12.5307" x2="22.8496"
+              y2="29.9142" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00A0FF"></stop>
+              <stop offset="0.00657445" stop-color="#00A1FF"></stop>
+              <stop offset="0.2601" stop-color="#00BEFF"></stop>
+              <stop offset="0.5122" stop-color="#00D2FF"></stop>
+              <stop offset="0.7604" stop-color="#00DFFF"></stop>
+              <stop offset="1" stop-color="#00E3FF"></stop>
+            </linearGradient>
+            <linearGradient id="paint1_linear_play-store-icon-660270367" x1="52.7188" y1="24.2404" x2="27.6552"
+              y2="24.2404" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFE000"></stop>
+              <stop offset="0.4087" stop-color="#FFBD00"></stop>
+              <stop offset="0.7754" stop-color="#FFA500"></stop>
+              <stop offset="1" stop-color="#FF9C00"></stop>
+            </linearGradient>
+            <linearGradient id="paint2_linear_play-store-icon-660270367" x1="43.3888" y1="26.6203" x2="19.788"
+              y2="50.1938" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FF3A44"></stop>
+              <stop offset="1" stop-color="#C31162"></stop>
+            </linearGradient>
+            <linearGradient id="paint3_linear_play-store-icon-660270367" x1="25.2315" y1="3.68145" x2="35.7704"
+              y2="14.208" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#32A071"></stop>
+              <stop offset="0.0685" stop-color="#2DA771"></stop>
+              <stop offset="0.4762" stop-color="#15CF74"></stop>
+              <stop offset="0.8009" stop-color="#06E775"></stop>
+              <stop offset="1" stop-color="#00F076"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+      <a href="https://www.google.com.br">
+        <svg viewBox="0 0 176 48" xmlns="http://www.w3.org/2000/svg" class="css-1csxzh1" style="width: 150px;">
+          <rect width="176" height="48" rx="24" fill="#1D1D1D"></rect>
+          <path
+            d="M60.2209 16.7891H62.7063C64.8059 16.7891 66.0413 15.4805 66.0413 13.254V13.2442C66.0413 11.0274 64.7961 9.74323 62.7063 9.74323H60.2209V16.7891ZM61.3147 15.8419V10.6856H62.6038C64.0881 10.6856 64.9231 11.5987 64.9231 13.254V13.2637C64.9231 14.9288 64.0979 15.8419 62.6038 15.8419H61.3147Z"
+            fill="white"></path>
+          <path
+            d="M68.1305 10.8614C68.4772 10.8614 68.7458 10.588 68.7458 10.2559C68.7458 9.91901 68.4772 9.64557 68.1305 9.64557C67.7887 9.64557 67.5153 9.91901 67.5153 10.2559C67.5153 10.588 67.7887 10.8614 68.1305 10.8614ZM67.6032 16.7891H68.6579V11.6524H67.6032V16.7891Z"
+            fill="white"></path>
+          <path
+            d="M72.2706 16.8917C73.4815 16.8917 74.3604 16.2471 74.3604 15.3096V15.3047C74.3604 14.5674 73.96 14.1524 72.9102 13.9083L72.0752 13.7178C71.5235 13.586 71.3135 13.3712 71.3135 13.0538V13.0489C71.3135 12.6387 71.67 12.3702 72.2364 12.3702C72.8321 12.3702 73.1836 12.6827 73.2471 13.1319L73.252 13.1661H74.2432L74.2383 13.1075C74.1846 12.2335 73.4522 11.5547 72.2364 11.5547C71.0547 11.5547 70.254 12.1846 70.254 13.1026V13.1075C70.254 13.8546 70.7374 14.3233 71.7139 14.5479L72.5538 14.7383C73.1055 14.8702 73.2911 15.0606 73.2911 15.3926V15.3975C73.2911 15.8126 72.9102 16.0762 72.2754 16.0762C71.626 16.0762 71.2745 15.7979 71.1768 15.3243L71.167 15.2755H70.1221L70.127 15.3194C70.2344 16.2569 70.9864 16.8917 72.2706 16.8917Z"
+            fill="white"></path>
+          <path
+            d="M75.7807 18.4981H76.8354V15.9249H76.8598C77.1625 16.5206 77.7534 16.8917 78.4809 16.8917C79.77 16.8917 80.6147 15.8614 80.6147 14.2256V14.2208C80.6147 12.5801 79.7749 11.5547 78.4663 11.5547C77.7338 11.5547 77.1674 11.9258 76.8598 12.5362H76.8354V11.6524H75.7807V18.4981ZM78.1928 15.9835C77.3969 15.9835 76.8305 15.2901 76.8305 14.2256V14.2208C76.8305 13.1514 77.392 12.4581 78.1928 12.4581C79.018 12.4581 79.5405 13.127 79.5405 14.2208V14.2256C79.5405 15.3096 79.0229 15.9835 78.1928 15.9835Z"
+            fill="white"></path>
+          <path
+            d="M84.242 16.8917C85.7118 16.8917 86.6786 15.876 86.6786 14.2208V14.211C86.6786 12.5655 85.702 11.5547 84.2372 11.5547C82.7772 11.5547 81.8055 12.5704 81.8055 14.211V14.2208C81.8055 15.8712 82.7674 16.8917 84.242 16.8917ZM84.2469 16.0079C83.4217 16.0079 82.8846 15.3585 82.8846 14.2208V14.211C82.8846 13.088 83.4266 12.4385 84.2372 12.4385C85.0624 12.4385 85.5995 13.088 85.5995 14.211V14.2208C85.5995 15.3536 85.0721 16.0079 84.2469 16.0079Z"
+            fill="white"></path>
+          <path
+            d="M88.094 16.7891H89.1487V13.796C89.1487 12.9952 89.6272 12.4581 90.3694 12.4581C91.1018 12.4581 91.4631 12.8926 91.4631 13.6641V16.7891H92.5227V13.4639C92.5227 12.2823 91.8733 11.5547 90.7454 11.5547C89.969 11.5547 89.4417 11.9063 89.1731 12.4288H89.1487V11.6524H88.094V16.7891Z"
+            fill="white"></path>
+          <path
+            d="M94.9879 11.0714L96.1012 9.53326H95.0807L94.2262 11.0714H94.9879ZM94.1872 16.7891H95.2418V11.6524H94.1872V16.7891Z"
+            fill="white"></path>
+          <path
+            d="M98.3418 16.7891H99.4747L101.315 11.6524H100.217L98.9278 15.7589H98.9034L97.6143 11.6524H96.4913L98.3418 16.7891Z"
+            fill="white"></path>
+          <path
+            d="M104.518 16.8917C105.763 16.8917 106.554 16.1495 106.72 15.334L106.73 15.2803H105.729L105.714 15.3194C105.582 15.7051 105.167 16.0274 104.542 16.0274C103.703 16.0274 103.17 15.461 103.151 14.4893H106.789V14.1329C106.789 12.5899 105.905 11.5547 104.464 11.5547C103.024 11.5547 102.096 12.629 102.096 14.2354V14.2403C102.096 15.8614 103.009 16.8917 104.518 16.8917ZM104.469 12.419C105.158 12.419 105.656 12.8536 105.744 13.7422H103.165C103.258 12.8829 103.786 12.419 104.469 12.419Z"
+            fill="white"></path>
+          <path d="M108.248 16.7891H109.303V9.74323H108.248V16.7891Z" fill="white"></path>
+          <path
+            d="M113.618 16.7891H114.673V13.796C114.673 12.9952 115.151 12.4581 115.893 12.4581C116.626 12.4581 116.987 12.8926 116.987 13.6641V16.7891H118.047V13.4639C118.047 12.2823 117.397 11.5547 116.269 11.5547C115.493 11.5547 114.965 11.9063 114.697 12.4288H114.673V11.6524H113.618V16.7891Z"
+            fill="white"></path>
+          <path
+            d="M121.176 16.8819C121.855 16.8819 122.45 16.5303 122.748 15.9786H122.768V16.7891H123.827V13.2491C123.827 12.2188 123.031 11.5547 121.776 11.5547C120.512 11.5547 119.745 12.2335 119.672 13.1172L119.667 13.171H120.663L120.673 13.127C120.761 12.7169 121.137 12.4288 121.747 12.4288C122.401 12.4288 122.768 12.7706 122.768 13.337V13.7227L121.371 13.8057C120.155 13.879 119.462 14.4258 119.462 15.3194V15.3292C119.462 16.252 120.15 16.8819 121.176 16.8819ZM120.526 15.3047V15.295C120.526 14.8604 120.878 14.5821 121.513 14.543L122.768 14.4649V14.8653C122.768 15.5342 122.206 16.0372 121.464 16.0372C120.898 16.0372 120.526 15.754 120.526 15.3047Z"
+            fill="white"></path>
+          <path
+            d="M46.6043 23.0451C46.6171 22.0522 46.8808 21.0788 47.371 20.2153C47.8612 19.3517 48.5619 18.6262 49.4079 18.1062C48.8704 17.3388 48.1614 16.7072 47.3372 16.2617C46.5129 15.8162 45.5961 15.5689 44.6596 15.5396C42.6618 15.33 40.7251 16.7349 39.707 16.7349C38.6693 16.7349 37.1019 15.5605 35.414 15.5952C34.3223 15.6304 33.2583 15.9479 32.3257 16.5165C31.3931 17.0852 30.6238 17.8857 30.0926 18.84C27.7917 22.8229 29.508 28.6765 31.712 31.896C32.8147 33.4725 34.1035 35.2335 35.7899 35.1711C37.44 35.1026 38.0563 34.119 40.0482 34.119C42.0217 34.119 42.5999 35.1711 44.3204 35.1314C46.0912 35.1026 47.2068 33.5478 48.2708 31.9564C49.0631 30.8331 49.6728 29.5916 50.0773 28.2779C49.0486 27.8428 48.1707 27.1147 47.5531 26.1841C46.9355 25.2536 46.6055 24.1619 46.6043 23.0451Z"
+            fill="white"></path>
+          <path
+            d="M43.3548 13.4221C44.3203 12.2633 44.796 10.7738 44.6808 9.26999C43.2058 9.42489 41.8433 10.1297 40.8647 11.2441C40.3863 11.7885 40.0199 12.4218 39.7864 13.1079C39.5529 13.794 39.457 14.5193 39.5041 15.2425C40.2419 15.2501 40.9717 15.0902 41.6388 14.7749C42.3058 14.4595 42.8925 13.997 43.3548 13.4221Z"
+            fill="white"></path>
+          <path
+            d="M67.4641 31.1796H61.8328L60.4804 35.172H58.0952L63.4291 20.4008H65.9072L71.2411 35.172H68.8152L67.4641 31.1796ZM62.416 29.3372H66.8797L64.6793 22.8577H64.6177L62.416 29.3372Z"
+            fill="white"></path>
+          <path
+            d="M82.7604 29.7881C82.7604 33.1347 80.9689 35.2849 78.2653 35.2849C77.5805 35.3207 76.8994 35.163 76.3 34.8297C75.7007 34.4965 75.2073 34.0013 74.8763 33.4007H74.8252V38.7349H72.6143V24.4028H74.7544V26.194H74.795C75.1412 25.5964 75.6429 25.1037 76.2468 24.7684C76.8507 24.4332 77.5343 24.2679 78.2247 24.2901C80.9584 24.2901 82.7604 26.4507 82.7604 29.7881ZM80.4879 29.7881C80.4879 27.6077 79.3609 26.1743 77.6414 26.1743C75.9522 26.1743 74.8159 27.6379 74.8159 29.7881C74.8159 31.958 75.9522 33.4112 77.6414 33.4112C79.3609 33.4112 80.4879 31.9882 80.4879 29.7881Z"
+            fill="white"></path>
+          <path
+            d="M94.6156 29.7881C94.6156 33.1347 92.8241 35.2849 90.1206 35.2849C89.4357 35.3207 88.7546 35.1629 88.1553 34.8297C87.5559 34.4965 87.0625 34.0013 86.7316 33.4007H86.6804V38.7349H84.4695V24.4028H86.6095V26.194H86.6502C86.9963 25.5963 87.4981 25.1037 88.102 24.7684C88.7059 24.4332 89.3895 24.2679 90.0799 24.2901C92.8136 24.2901 94.6156 26.4507 94.6156 29.7881ZM92.3431 29.7881C92.3431 27.6077 91.2161 26.1743 89.4967 26.1743C87.8074 26.1743 86.6711 27.6379 86.6711 29.7881C86.6711 31.958 87.8074 33.4112 89.4967 33.4112C91.2162 33.4112 92.3431 31.9882 92.3431 29.7881H92.3431Z"
+            fill="white"></path>
+          <path
+            d="M102.451 31.0566C102.615 32.5214 104.038 33.4832 105.983 33.4832C107.846 33.4832 109.187 32.5214 109.187 31.2006C109.187 30.0541 108.379 29.3676 106.464 28.8971L104.549 28.4359C101.836 27.7808 100.577 26.5123 100.577 24.4539C100.577 21.9053 102.798 20.1548 105.953 20.1548C109.074 20.1548 111.215 21.9053 111.287 24.4539H109.055C108.921 22.9798 107.702 22.09 105.921 22.09C104.14 22.09 102.921 22.9903 102.921 24.3006C102.921 25.3449 103.7 25.9594 105.604 26.4298L107.232 26.8294C110.263 27.5461 111.522 28.7635 111.522 30.9241C111.522 33.6876 109.321 35.4184 105.819 35.4184C102.543 35.4184 100.331 33.7282 100.188 31.0565L102.451 31.0566Z"
+            fill="white"></path>
+          <path
+            d="M116.294 21.8546V24.4031H118.342V26.1537H116.294V32.0907C116.294 33.0131 116.704 33.4429 117.604 33.4429C117.848 33.4386 118.09 33.4216 118.332 33.3917V35.1318C117.927 35.2075 117.515 35.2417 117.104 35.2341C114.923 35.2341 114.072 34.4151 114.072 32.3265V26.1537H112.506V24.4031H114.072V21.8546H116.294Z"
+            fill="white"></path>
+          <path
+            d="M119.528 29.788C119.528 26.3995 121.524 24.2703 124.637 24.2703C127.76 24.2703 129.746 26.3995 129.746 29.788C129.746 33.1857 127.77 35.3056 124.637 35.3056C121.505 35.3056 119.528 33.1857 119.528 29.788ZM127.494 29.788C127.494 27.4636 126.428 26.0917 124.637 26.0917C122.845 26.0917 121.781 27.474 121.781 29.788C121.781 32.1216 122.845 33.4831 124.637 33.4831C126.428 33.4831 127.494 32.1216 127.494 29.788H127.494Z"
+            fill="white"></path>
+          <path
+            d="M131.569 24.4027H133.678V26.2357H133.729C133.872 25.6632 134.207 25.1573 134.679 24.803C135.151 24.4486 135.73 24.2675 136.32 24.29C136.575 24.2891 136.829 24.3168 137.078 24.3725V26.4402C136.756 26.3419 136.42 26.2968 136.084 26.3066C135.763 26.2936 135.443 26.3502 135.146 26.4726C134.848 26.595 134.581 26.7802 134.362 27.0156C134.143 27.251 133.978 27.5309 133.878 27.8363C133.777 28.1416 133.744 28.465 133.78 28.7843V35.1721H131.569L131.569 24.4027Z"
+            fill="white"></path>
+          <path
+            d="M147.271 32.009C146.974 33.964 145.07 35.3056 142.633 35.3056C139.5 35.3056 137.555 33.2066 137.555 29.8391C137.555 26.4611 139.51 24.2703 142.54 24.2703C145.52 24.2703 147.394 26.317 147.394 29.5823V30.3397H139.787V30.4733C139.752 30.8697 139.801 31.2689 139.932 31.6446C140.063 32.0203 140.273 32.3638 140.547 32.6523C140.821 32.9408 141.153 33.1677 141.522 33.318C141.89 33.4682 142.287 33.5384 142.684 33.5237C143.207 33.5727 143.731 33.4517 144.179 33.1788C144.627 32.9058 144.976 32.4956 145.172 32.009L147.271 32.009ZM139.797 28.7948H145.182C145.202 28.4384 145.148 28.0818 145.024 27.7473C144.899 27.4128 144.707 27.1076 144.459 26.851C144.21 26.5943 143.912 26.3917 143.582 26.2558C143.252 26.12 142.897 26.0538 142.54 26.0615C142.18 26.0593 141.823 26.1285 141.49 26.265C141.157 26.4015 140.854 26.6026 140.599 26.8567C140.344 27.1108 140.142 27.4129 140.004 27.7455C139.867 28.0782 139.796 28.4348 139.797 28.7948V28.7948Z"
+            fill="white"></path>
+        </svg>
+      </a>
+    </div>
+
+    </div>
+  </section>
+  <!-- End: Download The App Section -->
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="language-option">
+      <p>© 2023 BoltEvents aplicativo de eventos</p>
+    </div>
+
+  </section>
+  <!-- End: Footer Section -->
+
+  <!-- Required JavaScript Files & CDN -->
+  <!-- JQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Main JS Files -->
+  <script src="js/essential.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
